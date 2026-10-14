@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kazeem Abdulsobur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white font-sans text-secondary">
+
+  <header class="bg-primary text-white">
+    <div class="container mx-auto flex items-center justify-between px-6 py-5">
+      <a href="#" class="text-xl font-extrabold">Kazeem Abdulsobur</a>
+      <nav class="text-sm font-bold">
+        <a href="#features" class="ml-6 hover:underline">Portfolio</a>
+        <a href="#about" class="ml-6 hover:underline">About</a>
+        <a href="#contact" class="ml-6 hover:underline">Contact me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6">
+
+    <section class="flex flex-col items-center justify-between gap-12 py-20 md:flex-row">
+      <div class="max-w-md">
+        <h1 class="text-4xl font-extrabold leading-tight text-black md:text-5xl">
+          I build awesome experiences.
+        </h1>
+        <p class="mt-4">I'm a web developer | UI & UX designer</p>
+        <a href="#contact" class="mt-6 inline-block rounded bg-pink-400 px-5 py-2 font-bold text-white">
+          Check out my work!
+        </a>
+      </div>
+
+      <div class="relative h-96 w-64">
+        <div class="absolute inset-0 translate-x-3 translate-y-3 rounded-2xl border-4 border-teal-300"></div>
+        <div class="absolute inset-0 -translate-x-3 -translate-y-3 rounded-2xl border-4 border-yellow-300"></div>
+        <div class="absolute inset-0 flex flex-col gap-4 rounded-2xl bg-primary p-6">
+          <div class="h-1 w-full bg-white"></div>
+          <div class="h-1 w-full bg-white"></div>
+          <div class="h-1 w-2/3 bg-white"></div>
+          <div class="mt-4 h-24 rounded border-2 border-white"></div>
+          <div class="h-1 w-3/4 bg-white"></div>
+          <div class="mt-auto h-8 rounded border-2 border-white"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-12">
+      <h2 class="text-3xl font-extrabold text-black">About me</h2>
+      <p class="mt-4">I’m Kazeem, a 200-level Data Science student at the University of Lagos. I enjoy building clean, practical things for the web and learning how data can solve real problems.</p>
+    </section>
+
+    <section id="features" class="py-12">
+      <h2 class="text-3xl font-extrabold text-black">Portfolio</h2>
+      <div class="mt-8 grid gap-8 md:grid-cols-3">
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="text-xl font-bold text-black">Project one</h3>
+          <p class="mt-2">A campus shuttle tracking system built with my COS202 team to show live bus locations.</p>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="text-xl font-bold text-black">Project two</h3>
+          <p class="mt-2">A responsive landing page built with Tailwind CSS and Vite</p>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="text-xl font-bold text-black">Project three</h3>
+          <p class="mt-2">A WhatsApp integration that connects Claude to my messages through a local MCP server.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="my-12 rounded-2xl bg-primary px-8 py-12 text-center text-white">
+      <h2 class="text-3xl font-extrabold">Contact me</h2>
+      <a href="#" class="mt-6 inline-block rounded-full bg-white px-6 py-3 font-bold text-primary">Send a message</a>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-gray-200 py-6 text-center text-sm">
+    &copy; 2026 Kazeem Abdulsobur. All rights reserved.
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
